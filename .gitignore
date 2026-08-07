@@ -1,0 +1,30 @@
+# ==========================================
+# NEXUSOPTIMIZE – GITIGNORE
+# ==========================================
+
+# Node modules (huge, don't upload)
+node_modules/
+
+# Environment variables (secrets, never upload)
+.env
+
+# Discord.js / npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDE folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Railway / deployment cache
+.railway/
